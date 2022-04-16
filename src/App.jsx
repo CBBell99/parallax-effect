@@ -11,7 +11,7 @@ function App() {
         <ParallaxLayer>
           <h2>Welcome to my website</h2>
         </ParallaxLayer>
-        <ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.5}>
           <h2>Web Development is fun!</h2>
         </ParallaxLayer>
       </Parallax>
